@@ -1,0 +1,55 @@
+.featured-section {
+    text-align: center;
+    padding: 20px;
+    /* background-color: #f8f9fa; */
+}
+
+.featured-section h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.featured-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px; 
+    padding: 20px;
+}
+
+.featured-card {
+
+    background-color: none;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0px 0px 10px 0px;
+    width: 300px; 
+    cursor: pointer; 
+    transition: transform 0.2s; 
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-card:hover{
+    transform: scale(1.02);
+}
+
+.featured-card img {
+    width: 100%;
+    margin: 0;
+    height: 270px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover
+}
+
+.featured-card h3 {
+    color: #333;
+}
+
+.featured-card p {
+    color: #666;
+    line-height: 1.5;
+    flex-grow: 1;
+    margin: 10px;
+}

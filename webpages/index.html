@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaipur Travel Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/stylesheets/homepage.css">
+    <link rel="stylesheet" href="/stylesheets/slideshow.css">
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/stylesheets/featured-card.css">
+</head>
+
+<body>
+    <div class="header-container">
+        <h1>Jaipur</h1>
+        <nav class="navbar">
+            <a href="/webpages/index.html">Home</a>
+            <a href="/webpages/Places-to-stay.html">Places to Stay</a>
+            <a href="/webpages/Places-to-visit.html">Places to Visit</a>
+            <a href="/webpages/Good-restaurants.html">Good Restaurants</a>
+            <!-- <a href="/webpages/Local-cuisines.html">Local Cuisines</a>
+            <a href="/webpages/Local-attractions.html">Local Attractions</a> -->
+        </nav>
+    </div>
+    
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <div class="slide-caption">Jal Mahal</div>
+            <img src="/images/slideshow/1.jpg" alt="Beautiful view of Jaipur" style="width:100%">
+        </div>
+        <div class="slide fade">
+            <div class="slide-caption">Hawa Mahal</div>
+            <img src="/images/slideshow/2.jpg" alt="Historic site in Jaipur" style="width:100%">
+        </div>
+        <div class="slide fade">
+            <div class="slide-caption">Jaipur Highlights</div>
+            <img src="/images/slideshow/3.jpg" alt="Cultural festival in Jaipur" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <div class="welcome-section">
+        <h2>Welcome to Jaipur!</h2>
+        <p>
+            Jaipur, the capital city of Rajasthan, India, is a vibrant blend of rich history, stunning architecture, and a colorful culture that captivates every visitor.
+       </p>
+    </div>
+    
+    <div class="cards-container">
+        <div class="card">
+            <h3>Historical Significance</h3>
+            <p>
+                Jaipur was founded in 1727 by Maharaja Sawai Jai Singh II, an astronomer and warrior king. The city is a UNESCO World Heritage Site and is part of the Golden Triangle tourist circuit, making it a must-visit for anyone exploring India.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Cultural Heritage</h3>
+            <p>
+                The culture of Jaipur is a harmonious blend of royal heritage and contemporary vibrancy. Festivals like Teej and Diwali are celebrated with great enthusiasm, showcasing local music, dance, and cuisine.
+            </p>
+        </div>
+        <div class="card">
+            
+            <h3>Unique Experiences</h3>
+            <p>
+                Whether you're exploring the historic forts, savoring authentic Rajasthani dishes, or simply soaking in the colorful atmosphere, Jaipur promises an unforgettable experience for every traveler.
+            </p>
+        </div>
+    </div>   
+
+    <div class="featured-section">
+        <h2>Featured Places</h2>
+        <div class="featured-cards-container">
+            <!--Add links to govt website-->
+            <div class="featured-card" onclick="window.location.href='https://www.tourism.rajasthan.gov.in/amber-palace.html';">
+                <img src="/images/featured/amer_fort.jpg" alt="Amer Fort">
+                <h3>Amer Fort</h3>
+                <p>Amer Fort is a magnificent fort located in Amer, a town located 11 kilometers from Jaipur. Known for its artistic style and beautiful gardens.</p>
+            </div>
+            <div class="featured-card" onclick="window.location.href='https://www.tourism.rajasthan.gov.in/hawa-mahal.html';">
+                <img src="/images/featured/hawa_mahal.jpg" alt="Hawa Mahal">
+                <h3>Hawa Mahal</h3>
+                <p>The Hawa Mahal, or Palace of Winds, is famous for its unique architecture and is a symbol of Jaipur's rich cultural heritage.</p>
+            </div>
+            <div class="featured-card" onclick="window.location.href='https://www.tourism.rajasthan.gov.in/city-palace.html';">
+                <img src="/images/featured/city_palace.jpg" alt="City Palace">
+                <h3>City Palace</h3>
+                <p>The City Palace is a complex of palaces situated in the city of Jaipur, showcasing a blend of Mughal and Rajput architecture.</p>
+            </div>
+        </div>
+    </div>
+    <script src="/scripts/slideshow.js"></script>
+    </body>
+    </html>
