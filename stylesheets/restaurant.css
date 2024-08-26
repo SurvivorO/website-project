@@ -1,44 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background: #f4f4f4; 
-    margin: 0;
-    padding: 0;
-}
 
-.heading-good-restaurants {
-    text-align: center;
-    padding: 20px;
-    background-color: none; 
-     
-}
 
 .heading-good-restaurants h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    color: #333;
-}
-
-
-.introduction, .conclusion {
     text-align: center;
+    margin-top: 20px;
     padding: 20px;
-    background-color: #ffffff;
-    margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 800px; 
+    background-color: none; 
 }
 
-.introduction p, .conclusion p {
-    font-size: 1.1rem;
-    color: #666; 
+
+.introduction,
+.conclusion {
+  text-align: center;
+  padding: 20px;
+  background-color: none;
+  margin: 0px auto;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.introduction p,
+.conclusion p {
+  font-size: 1.1rem;
+  color: #666;
 }
 
 h2 {
-    text-align: center;
-    color: #92c7ff; 
-    margin-top: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #002750;
+  margin-top: 40px;
 }
 
 .restaurant-container {
@@ -50,7 +41,7 @@ h2 {
 }
 
 .restaurant {
-    background-color: #ffffff;
+    background-color: none;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
     max-width: 380px;
@@ -58,7 +49,7 @@ h2 {
     overflow: hidden;
     padding-bottom: 12px;
     transition: transform 0.2s;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
 
 }
 
@@ -74,14 +65,14 @@ h2 {
 
 .restaurant h3 {
     color: #333; 
-    margin: 10px 4 5px;
+    margin: 10px 4px 5px;
     font-size: 20px;
 
 }
 
 .restaurant p {
     color: #666; 
-    margin: 5px 0;
+    margin: 15px 5px;
     text-align: left;
     padding-left: 18px;
     padding-right: 15px;
